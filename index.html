@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spotify-Your Music Is Here</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="brand"><img  src="spotify.png" alt="Spotify">Spotify</li>
+			<li>
+				Home
+			</li>
+			<li>
+				About
+			</li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="songList">
+			<h1>Playlist of My Favourite Songs...</h1>
+			<div class="songItemContainer">
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="1" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="2" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="3" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="4" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="5" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+				<div class="songItem">
+					<img src="cover/1.jpg" alt=1>
+					<span class="songName">Late To The Party</span>
+					<span class="songListplay"><span class="timeStamp">5:55<i id="6" class="fa-solid playbutton fa-2x fa-circle-play"></i></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="songBanner"></div>
+	</div>
+	<div class="bottom">
+		<input type="range" type="range" id="progressBar" min="0" max="100" value="0"></input>
+		<div class="icons">
+			<!-- fontawesome -->
+			<i class="fa-solid fa-3x fa-backward" id="prev" ></i>
+			<i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+			<i class="fa-solid fa-3x fa-forward" id="next"></i>
+		</div>
+		<div class="songInfo">
+			<img src="5uwq.gif" width="100px" id="gif">
+			<span id="na">Late to the Party : TY Dollar $ign & Joyner Lucas</span>
+
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/f0647059de.js" crossorigin="anonymous"></script>
+</body>
+</html>
